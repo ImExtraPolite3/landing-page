@@ -77,7 +77,8 @@ button {
   margin: auto;
 }
 
-.row-two-content {
+.row-two-content,
+.row-four-content > .thin {
   display: flex;
   justify-content: space-between;
 }
@@ -110,4 +111,26 @@ button {
   padding-right: 30px;
   font-size: 15px;
   font-weight: bold;
+}
+
+.row-four-content {
+  margin: 35px auto;
+  border: solid;
+  background-color: #3882F6;
+  color: white;
+  padding: 30px 0;
+  border-radius: 10px;
+}
+
+.row-four-content > .thin {
+  align-items: center;
+}
+
+.row-four-content-right > button {
+  border: solid white;
+}
+
+.footer {
+  padding: 30px;
+  text-align: center;
 }
