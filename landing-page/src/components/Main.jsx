@@ -1,4 +1,13 @@
-import grayImg from '../assets';
+import grayImg from '../assets/gray-image.png';
+
+function repeat() {
+  return (
+    <>
+      <div></div>
+      <p>This is some subtext under an illustration or image</p>
+    </>
+  );
+}
 
 function MainOne() {
   return (
@@ -12,10 +21,23 @@ function MainOne() {
         <button>Sign Up</button>
       </div>
       <div id="main-one-right">
-        <img src={grayImg} alt="" />
+        <img src={grayImg} alt="gray image" width="600px" />
       </div>
     </div>
   );
 }
 
-export { MainOne };
+function MainTwo() {
+  const allInfo = [repeat(), repeat(), repeat(), repeat()];
+
+  const getInfo = allInfo.map((each) => <div key={each.key}>{each}</div>);
+
+  return (
+    <div id="main-two" className="narrow">
+      <h2>Some Random Information</h2>
+      <div id="main-two-info">{getInfo}</div>
+    </div>
+  );
+}
+
+export { MainOne, MainTwo };

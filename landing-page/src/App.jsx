@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import { MainOne } from './components/Main';
+import { MainOne, MainTwo } from './components/Main';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <Header />
         <MainOne />
       </div>
+      <MainTwo />
     </div>
   );
 }
