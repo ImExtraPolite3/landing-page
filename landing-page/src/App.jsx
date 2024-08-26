@@ -1,5 +1,6 @@
+import Footer from './components/Footer';
 import Header from './components/Header';
-import { MainOne, MainTwo } from './components/Main';
+import { MainOne, MainTwo, MainThree, MainFour } from './components/Main';
 
 function App() {
   return (
@@ -9,6 +10,13 @@ function App() {
         <MainOne />
       </div>
       <MainTwo />
+      <div className="light-gray">
+        <MainThree />
+      </div>
+      <MainFour />
+      <div className="dark-blue">
+        <Footer />
+      </div>
     </div>
   );
 }

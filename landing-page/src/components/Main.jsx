@@ -40,4 +40,34 @@ function MainTwo() {
   );
 }
 
-export { MainOne, MainTwo };
+function MainThree() {
+  return (
+    <div id="main-three" className="narrow">
+      <p id="quote">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ullam
+        iste suscipit accusantium aliquid quis sed, ducimus, porro doloremque
+        voluptas odio quae vel, mollitia vitae? Itaque minima modi saepe fugiat.
+      </p>
+      <p id="author">- Lorem ipsum dolor sit</p>
+    </div>
+  );
+}
+
+function MainFour() {
+  return (
+    <div id="main-four" className="narrow">
+      <div id="main-four-left">
+        <p>Lorem, ipsum dolor! Lorem, ipsum!</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+          veritatis expedita totam tempora mollitia, voluptate deleniti?
+        </p>
+      </div>
+      <div id="main-four-right">
+        <button>Sign Up</button>
+      </div>
+    </div>
+  );
+}
+
+export { MainOne, MainTwo, MainThree, MainFour };
