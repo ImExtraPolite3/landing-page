@@ -1,7 +1,13 @@
+import { NavBar } from './components/NavBar';
+import SectionOne from './components/SectionOne';
+
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <div className="dark-blue">
+        <NavBar />
+        <SectionOne />
+      </div>
     </>
   );
 }
