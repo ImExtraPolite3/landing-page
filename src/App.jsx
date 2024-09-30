@@ -1,5 +1,6 @@
 import { NavBar } from './components/NavBar';
 import SectionOne from './components/SectionOne';
+import SectionThree from './components/SectionThree';
 import SectionTwo from './components/SectionTwo';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <NavBar />
         <SectionOne />
         <SectionTwo />
+        <SectionThree />
       </div>
     </>
   );
