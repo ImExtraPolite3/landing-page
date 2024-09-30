@@ -1,5 +1,6 @@
 import { NavBar } from './components/NavBar';
 import SectionOne from './components/SectionOne';
+import SectionTwo from './components/SectionTwo';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className="dark-blue">
         <NavBar />
         <SectionOne />
+        <SectionTwo />
       </div>
     </>
   );
