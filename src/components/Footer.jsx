@@ -1,3 +1,7 @@
 export default function Footer() {
-  return <p>Copyright stuff</p>;
+  return (
+    <footer>
+      <p>Copyright stuff</p>
+    </footer>
+  );
 }

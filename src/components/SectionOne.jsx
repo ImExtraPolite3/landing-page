@@ -1,6 +1,6 @@
 export default function SectionOne() {
   return (
-    <section id="section-one">
+    <section id="section-one" className="size">
       <div id="section-one-text">
         <h1>This website is awesome</h1>
         <p>
@@ -10,7 +10,9 @@ export default function SectionOne() {
         <button className="sign-up">Sign Up</button>
       </div>
       <div id="section-two-image">
-        <div className="gray-image"></div>
+        <div className="gray-image">
+          <p>This is a placeholder for an image</p>
+        </div>
       </div>
     </section>
   );

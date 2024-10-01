@@ -22,7 +22,7 @@ function CreateInfo() {
 
 export default function SectionTwo() {
   return (
-    <section id="section-two">
+    <section id="section-two" className="size">
       <h2>Some random information.</h2>
       <div>
         <CreateInfo />

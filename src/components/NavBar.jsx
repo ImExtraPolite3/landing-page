@@ -8,9 +8,9 @@ function NavBarButtons({ name }) {
 
 function NavBar() {
   return (
-    <header id="nav-bar">
+    <header id="nav-bar" className="size">
       <div id="nav-bar-left">
-        <h2>Header Logo</h2>
+        <h1>Header Logo</h1>
       </div>
       <div id="nav-bar-right">
         <NavBarButtons key={1} name="one" />
