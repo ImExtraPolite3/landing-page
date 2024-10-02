@@ -119,6 +119,28 @@
   font-weight: 900;
 }
 
+#section-four {
+  width: 85%;
+  margin: 20px auto;
+  background-color: #3882f6;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#section-four-left > h4 {
+  font-size: 1rem;
+}
+
+#section-four-left > p {
+  font-size: 0.9rem;
+}
+
+#section-four-right > button {
+  margin-top: 5px;
+  border: solid white;
+}
+
 footer {
   text-align: center;
 }
