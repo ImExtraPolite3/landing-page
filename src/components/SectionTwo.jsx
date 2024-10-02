@@ -2,7 +2,7 @@ function Info({ text }) {
   return (
     <div>
       <div className="white-images"></div>
-      <div>
+      <div className="section-two-text">
         <p>{text}</p>
       </div>
     </div>
