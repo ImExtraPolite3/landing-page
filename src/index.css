@@ -14,6 +14,10 @@
   color: white;
 }
 
+.light-gray {
+  background-color: #e5e7eb;
+}
+
 .size {
   width: 95%;
   margin: auto;
@@ -98,6 +102,21 @@
   padding: 5px 0;
   color: white;
   border-radius: 5px;
+}
+
+#section-three {
+  padding: 20px 0;
+}
+
+#quote {
+  font-weight: lighter;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+#author {
+  text-align: right;
+  font-weight: 900;
 }
 
 footer {
