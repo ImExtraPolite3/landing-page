@@ -221,6 +221,12 @@ footer {
   #quote {
     font-size: 1.7rem;
   }
+
+  #section-four {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -232,6 +238,10 @@ footer {
 
   .gray-image {
     width: 400px;
+  }
+
+  #section-four {
+    width: 75%;
   }
 }
 
@@ -252,5 +262,9 @@ footer {
 
   #section-three {
     width: 55%;
+  }
+
+  #section-four {
+    width: 65%;
   }
 }
