@@ -12,6 +12,9 @@ function NavBar() {
       <div id="nav-bar-left">
         <h1>Header Logo</h1>
       </div>
+      <div id="menu">
+        <img src="menu.svg" alt="" />
+      </div>
       <div id="nav-bar-right">
         <NavBarButtons key={1} name="one" />
         <NavBarButtons key={2} name="two" />
