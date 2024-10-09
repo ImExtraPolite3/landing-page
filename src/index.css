@@ -166,6 +166,14 @@ footer {
     height: 250px;
     width: 250px;
   }
+
+  #section-three {
+    width: 70%;
+  }
+
+  #quote {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 700px) {
@@ -175,7 +183,7 @@ footer {
   }
 
   #section-one-text {
-    width: 90%;
+    width: 85%;
     margin: auto;
   }
 
@@ -205,12 +213,21 @@ footer {
     color: white;
     font-size: 1rem;
   }
+
+  #section-three {
+    width: 60%;
+  }
+
+  #quote {
+    font-size: 1.7rem;
+  }
 }
 
 @media (min-width: 1000px) {
   #section-one {
     width: 90%;
     flex-direction: row;
+    gap: 20px;
   }
 
   .gray-image {
@@ -231,5 +248,9 @@ footer {
 
   .gray-image {
     width: 500px;
+  }
+
+  #section-three {
+    width: 55%;
   }
 }
