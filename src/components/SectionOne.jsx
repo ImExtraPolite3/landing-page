@@ -9,7 +9,7 @@ export default function SectionOne() {
         </p>
         <button className="sign-up">Sign Up</button>
       </div>
-      <div id="section-two-image">
+      <div id="section-one-image">
         <div className="gray-image">
           <p>This is a placeholder for an image</p>
         </div>
