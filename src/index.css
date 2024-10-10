@@ -70,8 +70,13 @@
   align-items: center;
 }
 
-#nav-bar-right {
+.hide-nav-buttons {
   display: none;
+}
+
+.show-nav-buttons {
+  position: absolute;
+  top: 50px;
 }
 
 #section-two {
